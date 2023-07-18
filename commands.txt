@@ -1,0 +1,31 @@
+#restore --staged filename to remove the files added with 'add' filename
+
+#git log =get all history of commits
+
+#git reset 'commit id' =removes the commits loaded to be pushed /delete the commits after that commit
+
+#git stash =store added files in backstage and bring back whenever needed
+
+#git stash pop= brings back backstaged files for commiting and push
+
+#git stash clear= to clear the backstage added files
+
+#git remote add origin = to attach repo url to folder | remote means working with url | any folder that starts with our own account has origin
+
+#git push origin "branch" = adds to repository
+
+#git branch "branch name" =creates  a new branch
+
+
+#git checkout "branchname"= switch to the named branch
+
+
+#git merge "branchname"= merges the named branch with the current branch
+
+%%fork on github allows to copy other repos on our account so normally we have to fork and then modifiy the code and create a pull request for changes to be accepted and merged
+
+%%updating forked branch with all the updates |can press fech upstream button|git fetch --all --prune or git pull upstream main  /prune is for deleted files  after that push all the changes to the branch on repo which is forked | 
+
+
+# git rebase -i "commit id" = takes to new screen where pick indicates a new commit repalce it with s to squah it with the above commit 
+
