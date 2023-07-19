@@ -1,0 +1,20 @@
+@import './assets/Inter/inter.css';
+@import 'frappe-ui/src/style.css';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#app{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.appContainer{
+    height: 100%;
+}
